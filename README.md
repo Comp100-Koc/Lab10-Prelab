@@ -15,7 +15,7 @@ Implement a stack using Python lists. A stack is a data structure that follows t
   - `peek(self) -> int`: Returns the top element of the stack without removing it. Raise `IndexError` if the stack is empty.
   - `__len__(self) -> int`: Returns the number of elements in the stack.
   - `__str__(self) -> str`: Returns a string representation of the stack.
-- Use the "Stack.py" file for your implementation.
+- Use the "q1.py" file for your implementation.
 
 #### Stack Operations and Outputs:
 | Operation     | Stack Before       | Action     | Stack After        | Output                              |
@@ -47,7 +47,7 @@ Implement a queue using Python lists. A queue is a data structure that follows t
   - `peek(self) -> int`: Returns the front element of the queue without removing it. Raise `IndexError` if the queue is empty.
   - `__len__(self) -> int`: Returns the number of elements in the queue.
   - `__str__(self) -> str`: Returns a string representation of the queue.
-- Implement this in the "Queue.py" file.
+- Implement this in the "q2.py" file.
 
 #### Queue Operations and Outputs:
 | Operation | Queue Before      | Action      | Queue After       | Output                             |
