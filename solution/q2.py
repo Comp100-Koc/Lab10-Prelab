@@ -42,7 +42,7 @@ class Queue:
             IndexError: If the queue is empty.
         """
         if self.isEmpty():
-            raise KeyError("peek from empty queue")
+            raise IndexError("peek from empty queue")
         return self.items[0]
 
     def __len__(self) -> int:
