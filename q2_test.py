@@ -44,7 +44,7 @@ class TestQueue(unittest.TestCase):
 
     def test_peek_empty(self):
         queue = Queue()
-        with self.assertRaises(KeyError, msg="Peeking into an empty queue should raise KeyError."):
+        with self.assertRaises(IndexError, msg="Peeking into an empty queue should raise IndexError."):
             queue.peek()
 
     def test_str_empty(self):
